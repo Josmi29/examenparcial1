@@ -1,5 +1,5 @@
 #include <stdio.h>
-
+//tablas de multiplicacion de un valor dado 
 int main() {
     int numero;
 
