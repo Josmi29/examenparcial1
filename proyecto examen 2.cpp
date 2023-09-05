@@ -1,5 +1,6 @@
 #include <stdio.h>
 //tablas de multiplicacion de un valor dado 
+//Jose Miguel Ruiz Marquez, 180200
 int main() {
     int numero;
 
