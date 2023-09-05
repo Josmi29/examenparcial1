@@ -1,8 +1,8 @@
 #include <stdio.h>
-
+//Programa que imprime 10 numeros
 int main() {
     int contador;
-    printf("Escribe un número para comenzar a contar: ");
+    printf("Escribe un nÃºmero para comenzar a contar\n");
     scanf("%d", &contador);
     
     int limite = contador + 10; 
