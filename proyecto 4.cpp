@@ -1,23 +1,21 @@
 #include <stdio.h>
-//programa que recibe positivos hasta encontrar el negativo
-//jose miguel ruiz marquez, 180200
+// Programa que suma N números enteros
+// jose miguel ruiz marquez, 180200
 int main() {
-    int numero;
+    int a, suma;
 
-    printf("Ingresa numeros positivos, o ingresa un numero negativo para finalizar:\n");
-    printf("numero: ");
-    scanf("%d", &numero);
-
-    while (numero >= 0) 
+    printf("escribe un numero entero positivo a:\n ");
+    scanf("%d", &a);
+	printf("Usando la formula de Gauss: %d *(%d+1)/2 nos da que \n", a, a, a);
+    while (a <= 0) 
 	{
-        printf("numero ingresado: %d\n", numero);
-        printf("numero: ");
-        scanf("%d", &numero);
+        printf("el numero debe ser entero y positivo: ");
+        scanf("%d", &a);
     }
-
-    printf("ingresaste un numero negativo, no se reciben\a");
+    
+    suma = (a * (a + 1)) / 2;
+    printf("la sumatoria de los %d numeros enteros es= %d\n", a, suma);
 
     return 0;
 }
-
 
